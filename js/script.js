@@ -10,7 +10,7 @@ const favColor = prompt("Inserisci il tuo colore preferito");
 console.log(favColor, typeof favColor);
 
 // ELABORATION
-const pwd = `${firstName}${lastName}${favColor}21`;
+const pwd = `${firstName}${lastName}${favColor}${number}`;
 console.log(pwd, typeof pwd);
 const pwdPhrase = `Password: ${pwd}`
 console.log(pwdPhrase, typeof pwdPhrase);
